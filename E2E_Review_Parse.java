@@ -49,21 +49,7 @@ public class E2E_Review_Parse {
     	final ParseQuery<ParseObject> query = ParseQuery.getQuery("All_Blr_URL");
     	query.limit(1000);
     	query.findInBackground(getAllObjects());
-        
-        /*
-        hotel_list.add("https://www.zomato.com/bangalore/jalpaan-rajajinagar");
-        hotel_list.add("https://www.zomato.com/bangalore/jalpaan-jayanagar");
-        hotel_list.add("https://www.zomato.com/chennai/jalpaan-adyar");
-        hotel_list.add("https://www.zomato.com/hyderabad/jalpaan-somajiguda");
-        hotel_list.add("https://www.zomato.com/chennai/jalpaan-nungambakkam");
-        hotel_list.add("https://www.zomato.com/mumbai/jalpaan-borivali-west");
-        hotel_list.add("https://www.zomato.com/indore/jalpaan-yn-road");
-        hotel_list.add("https://www.zomato.com/hyderabad/jalpaan-pg-road-secunderabad");
-        hotel_list.add("https://www.zomato.com/mysore/jalpaan-express-ittige-gudu");
-        hotel_list.add("https://www.zomato.com/mysore/jalpaan-express-chamrajpura");
-        */
-        
-
+     
         driver = new FirefoxDriver();
         WebDriverWait wait = new WebDriverWait(driver, 5);
         
